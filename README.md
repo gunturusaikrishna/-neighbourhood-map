@@ -4,35 +4,64 @@
 
 ### Server Details
 
-Server IP Address 13.126.138.228
+Server IP Address 13.126.118.92
 
-Hosted site Url [http://13.126.138.228.xip.io/](http://13.126.138.228.xip.io/)
+Hosted site Url [http://13.126.118.92.xip.io/](http://13.126.118.92.xip.io/)
 
 ### How to connect as grader:
 
   save private key provided in your local machine and run the following command
   ```
-  ssh -i path/to/privatekey -p 2200 grader@13.126.138.228
+  ssh -i path/to/privatekey -p 2200 grader@13.126.118.92
     
   ```
   
 ### Id_rsa key
 ```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEA1FpQHw36n6DHPviYo0T+8X0BurkCH7s5Z3zcgnXV9wFYw4uQ
+xPJ/vsDRBzfY5kLv3OmqV4DiehLXXGBUNBiVECuBxa6Mt4pHSyPpq+2zY7XZ94jC
+tRsAxOH9wO7OmDY4Rmx1yInf2+sNiCk/5VWA/z6f6KjCVqJtum5IEcLdmnfgrEFS
++xGvJ6l9+dYPlD4pyIPINt2DC0VV67UsMscAMfz2/wJj+t8e/4YvhC+TBgZXCoOA
+xiT/KzqjRggkyFW2zkEcFPLH7dt9u7Ss5jrPHLBJq09gcuj8klUyQhHqxaHpU2zH
+5runCPwcsK0UWHqBi4Oi+rY3nWzbYHYkX0kUKQIDAQABAoIBAGHmOSX4BeFt+C25
+4nTzLC4dGZ0CCk6ivDZPxEGJHdnAjzGnuFh0DBzfO/796ktN9NN+DoBE9SSeZxc5
+ediCtMY9qJiAfnNnlrK3ndUbwyZnAlQygsGH73TVU22NK0XVSWB+RFbt6Xy0AwsR
+KVoLb2s9be+PTfku7TOUADngAtZhMkla/7TK7QKU/4LGhm3m2qKldq0zkDtN1CLZ
+XaWuDyGxhAqU7eA1aY1w69/pIthOgIAFFznCZ45CbYvH/Jvg7/mEqhFsqZ5h687v
+8KO8oehVVaGjMF1xd3r3DQ8t3QfpRaVauUAS4odfOLc7IkLKcf834qhrio6ffnmo
+x/EDoWECgYEA/QWk5yFgiXtrtrC6vgeuJSMaQN9igJelWQ1ppcrW2XwUZrhjl2zX
+d4234wShajFzSs/shVp7eWoJcNiz56oRMJfINwKwMbPnlnasfFlnlrTPcT0k/1AX
+53dzajJ9Sa32f8fDMFgJS42gOhV0YB1TM1ZAQZqtrS5SE/b8odEVWR0CgYEA1toh
+3EDnRg91diasLYkg7xhnzlJtupgb1RLqeOiGdBZOu2KW7qyJ0RK4El3+fJkd/xMT
+Xt5As58L6vtbDDJnMlPIdXLcodNMj+gnffpnF5/bTfDt4gmI+GUq9AQrEnqHWvvb
+fgNrC1wp8fjqgOcltLdKCoZ/pPg/FZ+9ybZrBX0CgYB2jlJ6SlVllgMekyitKgQb
+Optukj0ha+z6ESLToHuTZGRazUM9DK7ZQfpL0Tug+pK/FzYINiFs/pZ13dROVI3B
+ax1RSV0trNJy2iBwE6RKJWad9LyFNQ4+UuYteILkJzM9JGj9GgMg97d//9WLw7Hc
+eCmbk9KVNwMWf8BYQhPysQKBgBRUNWn6tidZ5RpV1GrGk9grrf7Gq91A8Tk6/faM
+wdQQHEj8rh1NNAkVRVdvj1nIvx7Ydje+vc6BGQaV2+qOhlcruEbspFWngZIIPFxe
+Kg0BMiXwywFdN5mRMPw/vLeV4mLIe98zgZhkkw9zJvUladrskNPoIAHC/20TXUjN
+utidAoGBAM7RasVZDUbqUtrzxInKdZ10LhWsQ4qEeet4o+irz09+nD8RgMK4jtKc
+47caNTbtqiTyHqQrRFpKO/SMriDlyUqqjIRSanZO+HjfNG43MVsjPbyAJUkjlVVv
+K/mIhgTXdPlU5s4mE+UbewL958EdBZawDTX2zZxqLbjf8XJX1Lkl
+-----END RSA PRIVATE KEY-----
+
 
 ```
 ### passpharse password
 '''
 passpharse password is empty(you can directly press enter).
 
-If it didn't work try password 'varma'.
 '''
 ### id_rsa.pub key
 ```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDkHVXGXVykGS7+l4WrjcDm6uDPdiN2a6LVuNgrbeLWkxsn6W/KjKhB83wz8/b0TNVbHrQb/i75knswYXvLNeJDINHTVbUIoQdJAdpLf+aRsaOzhQVSExRGYbmlM+8HUGKPKsuKCOkzgeF20Lcu+cR4XGgzNdYJAmR+oG9X6Rhx14Q1uN/CAaQxQw6u05lRIJfVmzR9tfc/+7Ii/Tepf7TqVsXcMdJy/q1YBluOmGfM5KMXui2paJKMrpV/DfIt3W3FV1qbopuuo0ay6jqnoTkTl9xmCzpkabD0Cg28aSSNq+GlAE9/gFCiNwR4TjT2R0MSFLMEBRwMsiC82CcLnYLp sree@DESKTOP-LUNCTQ2
+
 
 ```
 ### grader password
 ```
-
+unix
 ```
 ### Configuring Linux Server
 
